@@ -22,7 +22,6 @@ $.ajax({
         // The data to send (will be converted to a query string)
     // Whether this is a POST or GET request
     type: "GET",
- 
     // The type of data we expect back
     dataType : "json"
 })
@@ -33,3 +32,6 @@ $.ajax({
        $('#api_status').addClass('available');
      } 
   });
+
+// POST /api/v1/places_sea
+

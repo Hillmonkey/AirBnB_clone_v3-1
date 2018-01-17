@@ -16,19 +16,19 @@ $(function () {
   });
 });
 $.ajax({
-    // The URL for the request
-    url: "http://0.0.0.0:5051/api/v1/status/",
-        // The data to send (will be converted to a query string)
-    // Whether this is a POST or GET request
-    type: "GET",
- 
-    // The type of data we expect back
-    dataType : "json"
+  // The URL for the request
+  url: 'http://0.0.0.0:5051/api/v1/status/',
+  // The data to send (will be converted to a query string)
+  // Whether this is a POST or GET request
+  type: 'GET',
+
+  // The type of data we expect back
+  dataType: 'json'
 })
   // Code to run if the request succeeds (is done);
   // The response is passed to the function
-  .done(function(data) {
-     if (data.status == 'OK') {
-       $('#api_status').addClass('available');
-     } 
+  .done(function (data) {
+    if (data.status === 'OK') {
+      $('#api_status').addClass('available');
+    }
   });

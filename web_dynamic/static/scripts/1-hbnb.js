@@ -1,12 +1,17 @@
-$( function () {
-  $('input[type=checkbox]').click( function () {
-    console.log("click");
+let amens = {};
+$(function () {
+  $('input[type=checkbox]').click(function () {
+    console.log('click');
     if (this.checked) {
-      console.log('checked');
-      console.log(this);
+      amens[this.dataset.id] = this.dataset.name;
     } else {
-      console.log('unchecked');
-      console.log(this);
+      delete amens[this.dataset.id];
+    }
+    if ($.isEmptyObject(amens)) {
+      $('div.amenities > h4').html('&nbsp');
+    } else {
+      let amenStr = Object.values(amens).toString();
+      $('div.amenities > h4').html(amenStr);
     }
   });
 });

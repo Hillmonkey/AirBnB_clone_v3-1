@@ -8,7 +8,7 @@ $(function () {
       delete amens[this.dataset.id];
     }
     if ($.isEmptyObject(amens)) {
-      $('div.amenities > h4').html('&nbsp');
+      $('div.amenities > h4').html('&nbsp;');
     } else {
       let amenStr = Object.values(amens).toString();
       $('div.amenities > h4').html(amenStr);

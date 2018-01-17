@@ -1,5 +1,5 @@
 $( function () {
-  $('li#amnty input:checkbox').on('click', function () {
+  $('input[type=checkbox]').click( function () {
     console.log("click");
     if (this.checked) {
       console.log('checked');

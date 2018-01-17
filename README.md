@@ -149,18 +149,17 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
+###### Version 4
+
+- Wendy Segura - [Github](https://github.com/wendysegura) / [Twitter](https://twitter.com/gwenevere05)  
+- Larry Madeo - [Github](https://github.com/Hillmonkey) / [Twitter](https://twitter.com/larmalade)
+
 
 ###### Version 3
 
 - Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/)  
 - Felicia Hsieh - [Github](https://github.com/feliciahsieh) / [Twitter](https://twitter.com/feliciahsiehsw)
 
-
-
-###### Version 3
-
-- Wendy Segura - [Github](https://github.com/wendysegura) / [Twitter](https://twitter.com/gwenevere05)  
-- Larry Madeo - [Github](https://github.com/Hillmonkey) / [Twitter](https://twitter.com/larmalade)
 
 ###### Version 2
 

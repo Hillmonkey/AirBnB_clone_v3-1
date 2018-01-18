@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <SCRIPT src="https://code.jquery.com/jquery-3.2.1.min.js"></SCRIPT>
-    <script src="static/scripts/3-hbnb.js"></script>
+    <script src="/static/scripts/3-hbnb.js"></script>
     <link rel="stylesheet" href="../static/styles/4-common.css?{{ cache_id }}">
     <link rel="stylesheet" href="../static/styles/3-header.css?{{ cache_id }}">
     <link rel="stylesheet" href="../static/styles/3-footer.css?{{ cache_id }}">
@@ -44,7 +44,7 @@
           <INPUT type="checkbox" data-id="{{ amty.id }}" data-name="{{ amty.name }}">
           {{ amty.name }}
         </li>
-	    {% endfor %} #delete start for #4 articles
+	    {% endfor %} 
           </ul>
 	</div>
 	<button>
@@ -54,7 +54,7 @@
       <section class="places">
 	<h1>Places</h1>
 	{% for place in places.values()|sort(attribute='name') %}
-	{% endfor %} #delete end for #4 articles
+	{% endfor %}
       </section>
     </div>
     <footer>

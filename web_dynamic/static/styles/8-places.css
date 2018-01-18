@@ -106,3 +106,8 @@
     margin-top: 7px;
     margin-bottom: 0px;
 }
+.amenities > h4 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

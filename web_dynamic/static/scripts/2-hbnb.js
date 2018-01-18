@@ -17,7 +17,7 @@ $(function () {
 });
 $.ajax({
   // The URL for the request
-  url: 'http://0.0.0.0:5051/api/v1/status/',
+  url: 'http://0.0.0.0:5001/api/v1/status/',
   // The data to send (will be converted to a query string)
   // Whether this is a POST or GET request
   type: 'GET',

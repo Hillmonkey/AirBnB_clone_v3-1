@@ -10,7 +10,7 @@ $(function () {
     if ($.isEmptyObject(amens)) {
       $('div.amenities > h4').html('&nbsp;');
     } else {
-      let amenStr = Object.values(amens).toString();
+      let amenStr = Object.values(amens).join(', ');
       $('div.amenities > h4').html(amenStr);
     }
   });

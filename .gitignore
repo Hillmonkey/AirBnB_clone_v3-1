@@ -4,6 +4,8 @@
 __pycache__/
 versions/
 *main*.py
+*.swp
+*.swo
 *.pyo
 *.pyc
 *.sql

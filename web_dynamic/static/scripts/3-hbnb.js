@@ -21,7 +21,6 @@ $.ajax({
   // The data to send (will be converted to a query string)
   // Whether this is a POST or GET request
   type: 'GET',
-
   // The type of data we expect back
   dataType: 'json'
 })

@@ -1,7 +1,7 @@
-# <img src="https://www.holbertonschool.com/assets/holberton-logo-simplified-71b02868461c07d54553e4a7cc05d1926681a6755cc19030b0458f2d70ae9909.png" width="30"> AirBnB Clone V.3 - RESTful API
+# <img src="https://www.holbertonschool.com/assets/holberton-logo-simplified-71b02868461c07d54553e4a7cc05d1926681a6755cc19030b0458f2d70ae9909.png" width="30"> AirBnB Clone V.4 - RESTful API
 
 ## Synopsis
-This is the 3rd version of our AirBnB clone project. We will be using a REST API and Flask
+This is the 4th version of our AirBnB clone project. For the 4th version, we update the REST API and Flask functionality with JQuery on the client side.
 
 <p><img src="https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step2.png" alt="step2"></p>
 
@@ -16,7 +16,11 @@ This is the 3rd version of our AirBnB clone project. We will be using a REST API
 * [License](#license)
 
 ## Environment
-This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+This project is interpreted/tested with the following:
+* Ubuntu 14.04 LT
+* Python3 (version 3.4.3)
+* jQuery (version 3.2.1)
+* Chrome (version 57.0) -- rendering may be off for other browsers
 
 ## Installation
 * Run hbnb(interactively): `./console` and enter command
@@ -146,7 +150,7 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 
 ## Bugs
-No known bugs at this time. 
+May not render properly in browsers besides Chrome
 
 ## Authors
 ###### Version 4
